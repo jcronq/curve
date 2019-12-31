@@ -1,0 +1,28 @@
+{
+  "name": "js-curve",
+  "version": "1.0.0",
+  "description": "user defined curve, like light-curves in photoshop or curves in Unity Engine.",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcronq/curve.git"
+  },
+  "keywords": [
+    "curve",
+    "light-curve",
+    "unity-curve",
+    "unity",
+    "javascript"
+  ],
+  "author": "Jason Cronquist",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jcronq/curve/issues"
+  },
+  "homepage": "https://github.com/jcronq/curve#readme"
+}
