@@ -8,8 +8,20 @@
     <body>
         <h1>Page Loaded...</h1>
         <canvas id="curve" height="256" width="256"></canvas>
-        <script src="Curve.js"></script>
-        <script src="my-curve.js"></script>
+        <script src="../src/Curve.js"></script>
+        <script src="../src/CurveView.js"></script>
+        <script type="text/javascript">
+            config = {
+                points: [
+                    {x: 0.0, y: 0.0},
+                    {x: 1.0, y: 1.0},
+                    {x: 0.2, y: 0.7},
+                    {x: 0.7, y: 0.2},
+                ]
+            }
+            curve1 = new Curve(config);
+            new CurveView('curve', curve1);
+        </script>
     </body>
 </html>
 
