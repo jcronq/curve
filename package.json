@@ -2,6 +2,7 @@
   "name": "js-curve",
   "version": "1.0.0",
   "description": "user defined curve, like light-curves in photoshop or curves in Unity Engine.",
+  "main": "index.js",
   "directories": {
     "example": "example"
   },
